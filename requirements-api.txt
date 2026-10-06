@@ -1,0 +1,5 @@
+# -*- coding: utf-8 -*-
+# Provider là tùy chọn: offline chỉ cần requirements.txt.
+-r requirements.txt
+langchain-openai==1.6.7
+langchain-google-genai==4.4.0

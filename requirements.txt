@@ -1,0 +1,7 @@
+# -*- coding: utf-8 -*-
+# Môi trường đã xác minh; Python 3.11+. Không cần API key cho model offline.
+langchain==1.4.3
+langchain-core==1.6.6
+langgraph==1.2.13
+pydantic==2.13.5
+python-dotenv==1.0.1

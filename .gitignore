@@ -1,0 +1,18 @@
+# NOTE GIT 1: Chỉ đưa lên repo các file nguồn/cấu hình được liệt kê bên dưới.
+# Mọi file/thư mục khác ở gốc (kể cả .env, .venv, ảnh, báo cáo, log) đều bị bỏ qua.
+/*
+!/.gitignore
+!/README.md
+!/.env.example
+!/requirements.txt
+!/requirements-api.txt
+!/flight_harness.py
+!/agents.py
+!/model_config.py
+!/main.py
+!/evaluate_agents.py
+!/test_agents.py
+!/test_api.py
+
+# NOTE GIT 2: Khi thêm module cần nộp, thêm đúng tên vào danh sách trên.
+# gitignore không bảo vệ file đã được track; kiểm tra staged trước commit.
